@@ -1,9 +1,9 @@
 
 <?php
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $db="btl_web";
+        $servername = "noithatgiadinh.mysql.database.azure.com";
+        $username = "adminnoithat@noithatgiadinh";
+        $password = "admin@123";
+        $db="noithatgiadinh";
         // Create connection
         $conn = mysqli_connect($servername, $username, $password,$db);      
         // Check connection
